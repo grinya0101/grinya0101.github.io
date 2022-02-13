@@ -94,9 +94,9 @@
 
 /*наша команда*/
 .team-title {
-  font-size: 36px;
-  line-height: 1.16;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 /*наша команда текст*/
