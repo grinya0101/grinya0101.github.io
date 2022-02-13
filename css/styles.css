@@ -9,7 +9,6 @@
 }
 
 .body-common {
-  background-color: var(--primary-background);
   color: var(--accent-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -37,13 +36,21 @@
 .contacts-phone,
 .contacts-mail {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.hero {
+  background: #2f303a;
 }
 
 /*заголовок*/
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.5px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -55,6 +62,11 @@
   color: var(--main-tetle-text);
   background-color: var(--primary-text-color);
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 /*секция особенности*/
@@ -69,7 +81,7 @@
 /*секция план*/
 .upper-title {
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
 }
 
 /*Чем мы занимаемся*/
@@ -84,6 +96,7 @@
 .team-title {
   font-size: 36px;
   line-height: 1.16;
+  font-weight: 500;
 }
 
 /*наша команда текст*/
@@ -94,7 +107,10 @@
 }
 
 /*футер*/
-.foter-link {
+.footer {
+  background: #2f303a;
+}
+.footer-link {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -102,14 +118,17 @@
 }
 
 .footer-address {
-  font-weight: 400;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
+  color: var(--main-tetle-text);
 }
 
 .footer-phone,
 .footer-mail {
-  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.71px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*страница портфолио*/
@@ -143,6 +162,10 @@ a {
   color: var(--primary-text-color);
 }
 
+.footer-link-visible {
+  color: #f5f4fa;
+  font-family: Raleway;
+}
 .link-visible {
   color: var(--accent-color);
 }
@@ -192,6 +215,10 @@ ul {
 .phone,
 .mail {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .phone:hover,
@@ -202,8 +229,8 @@ ul {
 }
 
 /* заголовок */
-.list-title,
-.sabject {
+
+.subject {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -214,16 +241,11 @@ ul {
 .text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.8px;
+  line-height: 1.8;
 }
 
 .footer-address {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7px;
-}
-
-.cont-mail,
-.cont-phone {
-  color: var(--title-text-color);
+  line-height: 1.7;
 }
