@@ -23,6 +23,9 @@
   line-height: 1.19;
 }
 
+.nav-link:active {
+  color: var(--primary-text-color);
+}
 /*контакты хедер*/
 .contacts-phone:hover,
 .contacts-phone:focus,
@@ -163,6 +166,10 @@ ul {
 /* текст */
 .text {
   color: var(--title-text-color);
+}
+
+.current {
+  color: #2196f3;
 }
 
 /* кнопки */
