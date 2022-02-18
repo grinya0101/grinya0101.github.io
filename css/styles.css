@@ -14,7 +14,34 @@
   letter-spacing: 0.03em;
 }
 
-/*лого*/
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-container-nav {
+  display: flex;
+  align-items: center;
+}
+
 .header-link {
   font-family: Raleway;
   font-weight: 700;
@@ -22,10 +49,49 @@
   line-height: 1.19;
 }
 
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+
+.header-contacts {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-contacts {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.nav-item:last-child {
+  margin: 0;
+}
+
 .nav-link:active {
   color: var(--primary-text-color);
 }
+
+.nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*контакты хедер*/
+
+.contacts-link {
+  margin-left: 50px;
+}
+
 .contacts-phone:hover,
 .contacts-phone:focus,
 .contacts-mail:hover,
@@ -44,6 +110,9 @@
 
 .hero {
   background: #2f303a;
+  max-width: 1600;
+  height: 600px;
+  top: 80px;
 }
 
 /*заголовок*/
@@ -67,6 +136,11 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  letter-spacing: 0.06em;
 }
 
 /*секция особенности*/
@@ -76,6 +150,20 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.plan-list {
+  display: flex;
+}
+
+.plan-list:last-child {
+  padding-left: 30px;
+}
+
+.plan-item {
+  width: 270px;
+  margin-left: auto;
 }
 
 /*секция план*/
@@ -109,12 +197,15 @@
 /*футер*/
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-link {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  padding-left: 215px;
 }
 
 .footer-address {
@@ -129,6 +220,10 @@
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts {
+  padding-left: 215px;
 }
 
 /*страница портфолио*/
@@ -167,10 +262,6 @@ a {
 }
 .link-visible {
   color: var(--accent-color);
-}
-
-ul {
-  list-style: none;
 }
 
 /* список ссылок навигации*/
